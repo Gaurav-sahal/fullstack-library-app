@@ -3,12 +3,15 @@ import './App.css';
 import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 import { Footer } from './layouts/NavbarAndFooter/Footer';
 import { Homepage } from './layouts/Homepage/Homepage';
+import { SearchBook } from './layouts/SearchBooksPage/components/SearchBook';
+import { SearchBooksPage } from './layouts/SearchBooksPage/SearchBooksPage';
 
 export const App = () => {
   return (
     <div>
       <Navbar />
-      <Homepage />
+      {/* <Homepage /> */}
+      <SearchBooksPage />
       <Footer />
     </div>
   );
