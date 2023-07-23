@@ -27,8 +27,8 @@ export const SearchBooksPage = () => {
                 if (searchUrl === '') {
                     url = `${baseUrl}?page=${currentPage - 1}&size=${booksPerPage}`;
                 } else {
-                    let seaechWithPage = searchUrl.replace('<pageNumber>', `${currentPage - 1}`);
-                    url = baseUrl + seaechWithPage;
+                    let searchWithPage = searchUrl.replace('<pageNumber>', `${currentPage - 1}`);
+                    url = baseUrl + searchWithPage;
                 }
 
                 const response = await fetch(url);
