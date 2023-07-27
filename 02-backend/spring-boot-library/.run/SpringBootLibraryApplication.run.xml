@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringBootLibraryApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="OKTA_CLIENT_ID" value="0oaaipnl86X3XQZ1U5d7" />
+      <env name="OKTA_ISSUER" value="https://dev-93918451.okta.com/oauth2/default" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.luv2code.springbootlibrary.SpringBootLibraryApplication" />
+    <module name="spring-boot-library" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.luv2code.springbootlibrary.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
