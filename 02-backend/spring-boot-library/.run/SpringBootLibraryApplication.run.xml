@@ -3,6 +3,7 @@
     <envs>
       <env name="OKTA_CLIENT_ID" value="0oaaipnl86X3XQZ1U5d7" />
       <env name="OKTA_ISSUER" value="https://dev-93918451.okta.com/oauth2/default" />
+      <env name="STRIPE_KEY_SECRET" value="sk_test_51Nlr7TSI9gFQX59bLpHEHKfAiqcrxhFwU3bIOuWkR8vXBm83l4KPjwKCk6KLdewg8hLYiyqhdWaPs0mL4D4ClWpG00JaPUtknd" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="com.luv2code.springbootlibrary.SpringBootLibraryApplication" />
     <module name="spring-boot-library" />
